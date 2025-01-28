@@ -1,13 +1,14 @@
 import { useState } from 'react'
-import './App.css'
+import Styles from './App.module.css'
+import { Navbar } from './components/Navbar/Navbar'
 
 function App() {
  
-
   return (
-    <>
-       TEST WORKS
-    </>
+    <div className={Styles.App}>
+      <Navbar />
+     
+    </div>
   )
 }
 
