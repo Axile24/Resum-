@@ -31,7 +31,7 @@ export const About = () => {
                 <li className={styles.aboutItem}><img src={getImageUrl("about/cursorIcon.png")} alt='xray Icon'/>
                 <div className={styles.aboutItemText}>
                     <h3>X- ray technologist</h3>
-                    <p>I am an **X-ray Technologist**, a healthcare professional specializing in diagnostic imaging. I operate X-ray equipment to capture images of the body, helping doctors diagnose and treat medical conditions. My role involves ensuring patient safety, maintaining imaging equipment, and collaborating with healthcare teams to provide accurate results. I am passionate about delivering high-quality care and supporting patients through their medical journeys.</p>
+                    <p>I am an <b> X-ray Technologist</b>, a healthcare professional specializing in diagnostic imaging. I operate X-ray equipment to capture images of the body, helping doctors diagnose and treat medical conditions. My role involves ensuring patient safety, maintaining imaging equipment, and collaborating with healthcare teams to provide accurate results. I am passionate about delivering high-quality care and supporting patients through their medical journeys.</p>
                 </div>
                 
                 </li>
