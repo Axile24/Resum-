@@ -1,0 +1,128 @@
+@import "../../vars.css";
+
+.container{
+position: relative;
+display: flex;
+align-items: center;
+justify-content: space-between;
+z-index: 1;
+margin-left:10% ;
+margin-right: 10%;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--color-text);
+    z-index: 1;
+}
+.title {
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 33px;
+    font-family: var(--font-roboto);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 130%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text; /* Standard property for better compatibility */
+    color: white; /* Fallback color for unsupported browsers */
+}
+
+.description {
+    font-size: 30px;
+    font-family: var(--font-roboto), sans-serif; /* Use a fallback font */
+    font-weight: 400; /* Adjust font weight for better readability */
+    line-height: 1.6; /* Improve spacing between lines */
+    letter-spacing: 0.5px; /* Slightly increase letter spacing */
+    color: #eae2e2; /* Use a softer color for better contrast */
+    margin-bottom: 52px;
+    text-align: center; /* Align text to the center */
+}
+.contactBtn {
+    display: inline-block; /* Ensure the link behaves like a block element */
+    padding: 17px 26px; /* Padding for button size */
+    font-size: 30px; /* Font size */
+    font-weight: 600; /* Font weight (unitless) */
+    color: var(--color-text); /* Text color */
+    background-color: var(--color-primary); /* Background color */
+    border-radius: 100px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25); /* Subtle shadow */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    margin-bottom: 10px;
+  }
+  
+  /* Optional: Add hover and active states for better interactivity */
+  .contactBtn:hover {
+    background-color: var(--color-primary-dark); /* Darken background on hover */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+  }
+  
+  .contactBtn:active {
+    background-color: var(--color-primary-darker); /* Darken further on click */
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.25); /* Reduce shadow on click */
+  }
+
+
+.heroImg{
+    width: 30%;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    z-index: 1;
+
+    animation-name: floating;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+@keyframes floating{
+    0% {
+        transform: translate(0 ,0px);
+    }
+    50% {
+        transform: translate(0 ,10px);
+    }
+    100% {
+        transform: translate(0 ,-1px);
+    }
+}
+.topBlur{
+    position: absolute;
+    width:50vw ;
+    height: 50vh;
+    min-width: 350px;
+    min-height: 350px;
+    top: -128px;
+    left: -10vw;
+    border-radius: 764px;
+    background: rgba(0,0,0, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+.bottomBlur{
+    position: absolute;
+    width:70vw ;
+    height: 50vh;
+    min-width: 350px;
+    min-height: 250px;
+    top: 246px;
+    right: -25vw;
+    border-radius: 764px;
+    background: rgba(0,0,0, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+
+}
+@media screen and (max-width:830px){
+    .container{
+        flex-direction: column-reverse;
+    }
+    .content{
+        align-items: center;
+    }
+    
+    
+}
