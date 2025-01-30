@@ -26,5 +26,21 @@
     {
       "title": "Figma",
       "imageSrc": "skills/figma.png"
-    }
+    },
+    {
+      "title": "Swedavia",
+      "imageSrc": "skills/Swedavia_Logo.png"
+    },
+    
+      {
+        "imageSrc": "path/to/image1.jpg",
+        "title": "Software Engineer"
+      },
+      {
+        "imageSrc": "path/to/image2.jpg",
+        "title": "Project Manager"
+      }
+    
+    
   ]
+

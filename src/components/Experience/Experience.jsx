@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";  // Import Link from React Router
 import Skills from "../../data/Skills.json";
 import { getImageUrl } from "../../utils";
 import history from "../../data/History.json";
@@ -16,7 +17,9 @@ export default function Experience() {
               <div className={styles.imageContainer}>
                 <img src={getImageUrl(imageSrc)} alt={title} />
               </div>
-              <p>{title}</p>
+              <Link to={`/Swedavia/${title}`} className={styles.skillLink}> {/* Adding Link for navigation */}
+                <p>{title}</p>
+              </Link>
             </div>
           ))}
         </div>
