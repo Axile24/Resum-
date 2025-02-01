@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";  // Import Link from React Router
 import Skills from "../../data/Skills.json";
 import { getImageUrl } from "../../utils";
 import history from "../../data/History.json";
@@ -7,19 +6,22 @@ import styles from "./Experience.module.css";
 
 export default function Experience() {
   return (
+
     <section className={styles.container} id="experience">
+
       <h2 className={styles.title}>Experience</h2>
+
       <div className={styles.content}>
+
         {/* Skills Section */}
         <div className={styles.skills}>
+
           {Skills.map(({ imageSrc, title }, id) => (
             <div key={id} className={styles.skill}>
               <div className={styles.imageContainer}>
                 <img src={getImageUrl(imageSrc)} alt={title} />
               </div>
-              <Link to={`/Swedavia/${title}`} className={styles.skillLink}> {/* Adding Link for navigation */}
-                <p>{title}</p>
-              </Link>
+  
             </div>
           ))}
         </div>

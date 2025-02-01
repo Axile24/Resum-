@@ -1,0 +1,68 @@
+@import "../../vars.css";
+
+/* Container */
+
+.container {
+    margin: 4rem auto 0;
+    color: var(--color-text);
+    width: min(90%, 1200px);
+    /* More modern width constraint */
+    text-align: center;
+    /* Center align title */
+}
+
+
+/* Title Styles */
+
+.title {
+    --gradient-colors: rgba(87, 108, 188, 0.8), rgba(19, 42, 83, 0.6), rgba(87, 108, 188, 0.8);
+    font-size: clamp(1.5rem, 2vw + 1rem, 2.25rem);
+    /* Improved fluid sizing */
+    font-weight: 700;
+    line-height: 1.2;
+    position: relative;
+    display: inline-block;
+    margin-inline: auto;
+    /* Center alignment */
+    padding: 0.5rem 1rem;
+    isolation: isolate;
+    /* Better stacking context */
+}
+
+.title::before {
+    content: "";
+    position: absolute;
+    inset: -20% -25%;
+    /* Modern inset positioning */
+    background: linear-gradient(90deg, var(--gradient-colors));
+    border-radius: 100vmax;
+    animation: titleGlow 4s linear infinite;
+    mix-blend-mode: lighten;
+    z-index: -1;
+    opacity: 0.8;
+    will-change: transform;
+    /* Performance optimization */
+}
+
+
+/* Animation */
+
+@keyframes titleGlow {
+    0%,
+    100% {
+        transform: translateX(-10%);
+    }
+    50% {
+        transform: translateX(10%);
+    }
+}
+
+
+/* Projects Grid */
+
+.projects {
+    margin-top: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+    gap: 1.5rem;
+}
