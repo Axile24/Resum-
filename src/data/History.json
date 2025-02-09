@@ -25,31 +25,31 @@
         ],
         "imageSrc": "history/netflix.png"
     },
-
     {
-        "imageSrc": "swedavia-logo.png",
-        "organisation": "Swedavia",
-        "role": "Airport Officer",
-        "startDate": "2019",
-        "endDate": "2022",
+        "role": "Airport officer GOT",
+        "organisation": "Swedavia Airports",
+        "startDate": "Apr, 2016",
+        "endDate": "Mars, 2025",
         "experiences": [
-            "Customer service and security management",
-            "Handling airport operations",
-            "Emergency response coordination"
-        ]
+            "Jag har arbetat med information och som ledsagare, där jag hjälpte och assisterade personer i behov av vägledning och stöd. "
+        ],
+        "imageSrc": "/history/Swedavia_Logo.png"
     },
     {
-        "imageSrc": "swedavia-logo.png",
-        "organisation": "Swedavia",
-        "role": "Airport Officer",
-        "startDate": "2019",
-        "endDate": "2022",
+        "role": "Röntgensjuksköterska ",
+        "organisation": "VGR regionen ",
+        "startDate": "Apr, 2022",
+        "endDate": "Mars, 2025",
         "experiences": [
-            "Customer service and security management",
-            "Handling airport operations",
-            "Emergency response coordination"
-        ]
+            "Omvårdand ",
+            "MRI-säkerhet och arbetsmiljö – t.ex. hur man hanterar magnetfält, skyddsåtgärder och säkerhet för patienter och personal?",
+            "Bildoptimering och tekniska inställningar– hur olika parametrar påverkar bildkvaliteten ?",
+            "Underhåll av MRI - maskinen och teknisk felsökning– hur man ser till att maskinen fungerar optimalt ? "
+        ],
+        "imageSrc": "skills/Region-Vastra-Gotaland.png"
     }
+
+
 
 
 ]

@@ -1,46 +1,49 @@
-[
-    {
-      "title": "HTML",
-      "imageSrc": "skills/html.png"
+[{
+        "title": "HTML",
+        "imageSrc": "skills/html.png"
     },
     {
-      "title": "CSS",
-      "imageSrc": "skills/css.png"
+        "title": "CSS",
+        "imageSrc": "skills/css.png"
     },
     {
-      "title": "React",
-      "imageSrc": "skills/react.png"
+        "title": "React",
+        "imageSrc": "skills/react.png"
     },
     {
-      "title": "Node",
-      "imageSrc": "skills/node.png"
+        "title": "Node",
+        "imageSrc": "skills/node.png"
     },
     {
-      "title": "GraphQL",
-      "imageSrc": "skills/graphql.png"
+        "title": "GraphQL",
+        "imageSrc": "skills/graphql.png"
     },
     {
-      "title": "MongoDB",
-      "imageSrc": "skills/mongodb.png"
+        "title": "MongoDB",
+        "imageSrc": "skills/mongodb.png"
     },
     {
-      "title": "Figma",
-      "imageSrc": "skills/figma.png"
+        "title": "Figma",
+        "imageSrc": "skills/figma.png"
     },
     {
-      "title": "Swedavia",
-      "imageSrc": "skills/Swedavia_Logo.png"
+        "title": "Swedavia",
+        "imageSrc": "skills/Swedavia_Logo.png"
     },
-    
-      {
+
+    {
         "imageSrc": "path/to/image1.jpg",
         "title": "Software Engineer"
-      },
-      {
+    },
+    {
         "imageSrc": "path/to/image2.jpg",
         "title": "Project Manager"
-      }
-    
-    
-  ]
+    },
+    {
+        "imageSrc": "skills/Region-Vastra-Gotaland.png",
+        "title": "Praktik Röntgensjuksöterska "
+    }
 
+
+
+]
