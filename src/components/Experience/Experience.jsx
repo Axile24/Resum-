@@ -4,7 +4,7 @@ import { getImageUrl } from "../../utils";
 import history from "../../data/History.json";
 import styles from "./Experience.module.css";
 
-export default function Experience() {
+export const Experience =()=> {
   return (
 
     <section className={styles.container} id="experience">

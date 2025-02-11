@@ -2,8 +2,8 @@ import React from 'react';
 import styles from "./Hero.module.css";
 import { getImageUrl } from '../../utils';
 
-export default function Hero() {
-  return (
+export const Hero =()=> {
+  return 
     <section className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}> Hi, I'm Nadjib</h1>
@@ -17,5 +17,5 @@ export default function Hero() {
       <div className={styles.bottomBlur} />
 
     </section>
-  )
+  
 }
